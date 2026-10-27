@@ -20,3 +20,17 @@ Ejemplo:
 5! = 5 x 4 x 3 x 2 x 1 = 120 
 */
 
+// ejercicio 1: Imprime y suma los números del 1 al 100
+let suma=0 
+for (let i = 1; i <= 100; i++) {
+    suma=suma+i   
+}
+console.log(suma);
+
+// ejercicio 1: Imprime números pares del 1 al 50
+
+for (let i = 1; i<=50; i++) {
+    if (i %2==0) { //comprobamos si es par a través del módulo(%) numero 2 (par), y si es par, cumple la condicional.
+        console.log(i)
+    }
+}
